@@ -1,0 +1,125 @@
+//Tech Research + Planning 5.5
+:planning 5.5
+
+//Extract Data Fields 2.0
+:extract 2.0
+
+//Iterate through CSV + Replace Data 2.0
+:csv 2.0
+
+//Conditional Logic + Data Transformation 1.5
+:logic 1.5
+
+//Page Selection / Removal Logic 0.8
+:pages 0.8
+
+//PDF Export 0.8
+:export 0.8
+
+//Flagging Warnings + Errors 1.0
+:errors 1.0
+
+//Warning + Error Logging 0.5
+:logging 0.5
+
+// Handling Design / Multiline Issues
+:design 2.5
+
+// Usability Configuration 1.5
+:useability 1.5
+
+// Send PDFs Printer 1.0
+:printing 1.0
+
+// Printer Setup 1.0
+:printer 1.0
+
+// Testing 1.5
+:testing 1.5
+
+// Design Iteration, Implementing Feedback, Difficult Issues 4.0
+:iteration 4.0
+
+// Data Cleanup + Printing Standalone + Research into 2240 + 1046 3.5
+:other 3.5
+
+// Documentation 0.8
+:documentation 0.8
+
+// Feedback Sessions 3.0
+:feedback 3.0
+
+planning 0-330
+
+// day  thursday 5.16.2018
+extract 0-13
+// setup
+extract 13-15
+// I can see the fields
+extract 15-21
+// I've got them all in a row
+// alright now we need to try writing
+export 0-6
+// successfully made a complete clone
+// now alter some of the fields
+export 6-23
+// I exported some fields on page 0
+// next: export all fields
+export 23-31
+// exported all fields
+export 31-36
+// okay lets read from csv and start importing stuff
+csv  0-13
+// reading the csv correctly
+csv 13-24
+// added some exceptions 
+// day  friday 5.17.2018
+// go through and actually add real values
+csv 0-29
+// added real values
+// next go through page by page to fix fields
+csv 0-6
+// loaded doc into readme, did some debugging
+csv 7-12
+// 
+// generated name
+logic 0-8
+// genearated address, and interview
+logic 0-18
+// trying to figure out why some fields are not being filled out
+logic 0-12
+// parse out the program
+logic 0-14
+// remove pages from program
+pages 14-40
+// can we adjust styling?
+design 0-18
+// next up, let's retreive the hidden fields
+// 
+// Monday 5.20.2019
+extract 0-70
+// also, checkbox 
+extract 0-6
+// looked for checkbox, but unclear.. moving to styling
+design 0-14
+// multiline issue
+design 0-16
+// okay let's go back checkbox
+extract 0-15
+// no tax checkbox found..
+// formatting of due date
+logic 0-64
+// formatting of other date
+logic 0-10
+// word wrap
+logic 0-55
+// 3:00
+feedback 0-120
+// setup printer
+printer 0-45
+// bash script
+printing 0-15
+// but won't print the text fields
+
+
+
